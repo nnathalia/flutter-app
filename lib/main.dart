@@ -87,7 +87,6 @@ class MyApp extends StatelessWidget {
           ),
           Container(
             padding: EdgeInsets.all(10),
-            child: SingleChildScrollView(
               child: Row(
                 children: [
                   Expanded(
@@ -98,7 +97,6 @@ class MyApp extends StatelessWidget {
                 ],
               ),
             ),
-          ),
         ]),
       ),
     );
