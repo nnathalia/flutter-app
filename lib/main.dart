@@ -12,8 +12,9 @@ class MyApp extends StatelessWidget {
           backgroundColor: Color.fromARGB(255, 0, 0, 0),
           actions: [
             IconButton(
-              padding: EdgeInsets.only(right: 5),
-                onPressed: null, icon: Icon(Icons.menu, color: Colors.white))
+                padding: EdgeInsets.only(right: 5),
+                onPressed: null,
+                icon: Icon(Icons.menu, color: Colors.white))
           ],
         ),
         body: Column(children: [
@@ -87,16 +88,16 @@ class MyApp extends StatelessWidget {
           ),
           Container(
             padding: EdgeInsets.all(10),
-              child: Row(
-                children: [
-                  Expanded(
-                    child: Text(
-                      'Toronto, capital de Ontário, é uma grande cidade canadense na costa noroeste do Lago Ontário. Uma metrópole vibrante com arranha-céus imponentes, dominados pela famosa Torre CN. Toronto também possui muitos espaços verdes, desde o Queens Park até o High Park, com 400 acres de área, trilhas, instalações esportivas e um jardim zoológico.',
-                    ),
+            child: Row(
+              children: [
+                Expanded(
+                  child: Text(
+                    'Toronto, capital de Ontário, é uma grande cidade canadense na costa noroeste do Lago Ontário. Uma metrópole vibrante com arranha-céus imponentes, dominados pela famosa Torre CN. Toronto também possui muitos espaços verdes, desde o Queens Park até o High Park, com 400 acres de área, trilhas, instalações esportivas e um jardim zoológico.',
                   ),
-                ],
-              ),
+                ),
+              ],
             ),
+          ),
         ]),
       ),
     );
